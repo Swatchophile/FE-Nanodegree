@@ -280,7 +280,7 @@ var navigation = {
 			"link":"#mapL"
 		}
 	],
-	"display": function() {
+	"display":function() {
 		for(i in navigation.mainMenu){
 			var formattedNavItem = (HTMLnavItem.replace("%data%", navigation.mainMenu[i].name)).replace("#",navigation.mainMenu[i].link);
 			$("#mainMenu").append(formattedNavItem);
